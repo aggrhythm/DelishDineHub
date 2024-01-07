@@ -46,8 +46,7 @@ html{
     border-radius: 8px;
 }
 #navbar ul li a:hover{
-    color:black;
-    background-color: white;
+    background-color:rgb(88, 61, 42);
 }
 
 #home{
@@ -56,7 +55,7 @@ html{
     justify-content: center;
     align-items: center;
     padding:3px 190px;
-    height:470px;
+    height:510px;
 }
 #home::before {
     content: "";
@@ -66,13 +65,13 @@ html{
     top:0px;
     left:0px;
     position: absolute;
-    height: 65%;
+    height: 80%;
     width: 100%;
     opacity: 0.75;
 }
 
 .h-primary{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     padding:12px 12px;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -90,7 +89,7 @@ html{
     font-family:Arial, Helvetica, sans-serif
 }
 #home p{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     color:white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -113,29 +112,52 @@ html{
     margin:24px 10px;
     display:flex
 }
+#services h3 a{
+    text-decoration: none;
+    color: black;
+}
+#services h3 a:hover{
+    text-decoration: underline;
+    color: rgb(55, 50, 50);
+    cursor: pointer;
+}
+#services-container{
+    margin-top: 34px;
+    background-color:rgba(153, 92, 49,0.4);
+    height:500px;
+}
 #services .box{
     border: 2px solid rgb(47, 36, 36);
     border-radius: 25px;
-    margin:5px 30px;
+    margin:5px 40px;
     margin-bottom: 25px;
-    padding: 10px 10px;
+    padding: 20px 20px;
     background-color: rgba(112, 45, 1, 0.3);
 }
 #services .box img{
-    height:150px;
-    width:250px;
+    height:160px;
+    width:230px;
     display:block;
     margin: auto;
+    border-radius: 30px;
+}
+#services .box img:hover{
+    transform: scale(0.9);
+    transition: transform 0.4s ease;
+}
+#client-section h1{
+    padding-top: 80px;
 }
 #clients{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 40px;
 }
 #client-section{
-    margin-top: 60px;
+    margin-top: 2px;
     color:white;
-    height:380px;
+    height:430px;
 }
 .client-item img{
     height:100px;
@@ -147,7 +169,7 @@ html{
     opacity:0.8;
     background: url("../images/pasta1.jpg") no-repeat center center fixed;
     width: 100%;
-    height:50%;
+    height:55%;
     position: absolute;
 }
 footer{
@@ -164,7 +186,6 @@ footer a:hover{
 }
 #contact{
     position: relative;
-    margin-top: 30px;
 }
 #contact::before{
     background-color:rgba(112, 45, 1, 0.3);
@@ -207,3 +228,23 @@ footer a:hover{
     margin: auto;
     margin-top: 20px;
 }
+.new:hover{
+    background-color:rgb(48, 32, 20);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.contact-buttons a{
+    text-decoration: none;
+    color: white;
+}
+.contact-buttons{
+    display: inline-block;
+    position:absolute;
+    right:30px;
+}
+.new{
+    padding:7px 12px;
+    border-radius: 10px;
+    margin:5px;
+    background-color:rgb(88, 61, 42);
+    }
