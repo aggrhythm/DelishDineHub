@@ -1,5 +1,12 @@
+
 #navbar{
   flex-direction: column;
+}
+#navbar ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    width: 90%;
 }
 .contact-buttons{
     margin-top: 29px;
@@ -9,6 +16,7 @@
 .contact-buttons a{
     font-size:0.9rem;
 }
+
 #navbar ul li a{
     padding:0px 6px;
     padding-bottom: 20px;
@@ -17,12 +25,13 @@
     height:50px;
 }
 #home{
-    height:345px;
+    height:320px;
     padding:20px 38px;
     padding-top: 70px;
+    margin-top: 10px;
 }
 #home::before{
-    height:620px;
+    height:600px;
 }
 #home p{
     font-size: 14px;
@@ -90,4 +99,8 @@
 }
 #home p{
     font-size: 1.2rem;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
