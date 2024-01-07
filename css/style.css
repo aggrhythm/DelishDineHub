@@ -5,6 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color:rgb(211,191,176);
+}
 #navbar{
     display:flex;
     align-items: center;
@@ -123,7 +126,7 @@ html{
 }
 #services-container{
     margin-top: 34px;
-    background-color:rgba(153, 92, 49,0.4);
+    background-color:rgb(211,191,176);
     height:500px;
 }
 #services .box{
@@ -187,7 +190,7 @@ footer a:hover{
 }
 #contact{
     position: relative;
-    background-color: rgba(153, 92, 49,0.4);;
+    background-color:rgb(211,191,176);
 }
 
 #contact-box{
