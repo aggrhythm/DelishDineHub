@@ -5,6 +5,9 @@
     justify-content: space-around; /* Adjust as needed */
     width: 90%;
 }
+#navbar ul li a:hover{
+    padding-bottom: 5px;
+}
 .contact-buttons{
     margin-top: 20px;
     margin-right: 0px;
